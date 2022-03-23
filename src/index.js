@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// app is the only compenent thats being rendered to the DOM at position root to browser
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />  
   </React.StrictMode>,
   document.getElementById('root')
 );
